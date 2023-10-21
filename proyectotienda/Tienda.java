@@ -117,17 +117,13 @@ public class Tienda extends javax.swing.JFrame {
             .addGroup(jPanelMueblesLayout.createSequentialGroup()
                 .addGroup(jPanelMueblesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanelMueblesLayout.createSequentialGroup()
+                        .addContainerGap()
                         .addGroup(jPanelMueblesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(jPanelMueblesLayout.createSequentialGroup()
-                                .addContainerGap()
-                                .addGroup(jPanelMueblesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jLabel1)
-                                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jTextField1)
-                                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                            .addGroup(jPanelMueblesLayout.createSequentialGroup()
-                                .addContainerGap()
-                                .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                            .addComponent(jLabel1)
+                            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jTextField1)
+                            .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanelMueblesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel6)
@@ -135,7 +131,7 @@ public class Tienda extends javax.swing.JFrame {
                     .addGroup(jPanelMueblesLayout.createSequentialGroup()
                         .addGap(75, 75, 75)
                         .addComponent(jLabel4)))
-                .addContainerGap(50, Short.MAX_VALUE))
+                .addContainerGap(22, Short.MAX_VALUE))
         );
         jPanelMueblesLayout.setVerticalGroup(
             jPanelMueblesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -156,7 +152,7 @@ public class Tienda extends javax.swing.JFrame {
                 .addGroup(jPanelMueblesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
                     .addComponent(jLabel7))
-                .addContainerGap(214, Short.MAX_VALUE))
+                .addContainerGap(36, Short.MAX_VALUE))
         );
 
         jLabel9.setText("Ventanas");
@@ -203,7 +199,7 @@ public class Tienda extends javax.swing.JFrame {
                     .addGroup(jPanelVentanasLayout.createSequentialGroup()
                         .addGap(75, 75, 75)
                         .addComponent(jLabel11)))
-                .addContainerGap(350, Short.MAX_VALUE))
+                .addContainerGap(22, Short.MAX_VALUE))
         );
         jPanelVentanasLayout.setVerticalGroup(
             jPanelVentanasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -224,7 +220,7 @@ public class Tienda extends javax.swing.JFrame {
                 .addGroup(jPanelVentanasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel12)
                     .addComponent(jLabel14))
-                .addContainerGap(224, Short.MAX_VALUE))
+                .addContainerGap(36, Short.MAX_VALUE))
         );
 
         jLabel3.setText("Suelos");
@@ -270,7 +266,7 @@ public class Tienda extends javax.swing.JFrame {
                     .addGroup(jPanelSuelosLayout.createSequentialGroup()
                         .addGap(74, 74, 74)
                         .addComponent(jLabel16)))
-                .addContainerGap(350, Short.MAX_VALUE))
+                .addContainerGap(22, Short.MAX_VALUE))
         );
         jPanelSuelosLayout.setVerticalGroup(
             jPanelSuelosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -291,7 +287,7 @@ public class Tienda extends javax.swing.JFrame {
                 .addGroup(jPanelSuelosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel17)
                     .addComponent(jLabel19))
-                .addContainerGap(224, Short.MAX_VALUE))
+                .addContainerGap(36, Short.MAX_VALUE))
         );
 
         jLabel8.setText("Armarios");
@@ -339,7 +335,7 @@ public class Tienda extends javax.swing.JFrame {
                 .addGroup(jPanelArmariosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel23)
                     .addComponent(jLabel24))
-                .addContainerGap(350, Short.MAX_VALUE))
+                .addContainerGap(22, Short.MAX_VALUE))
         );
         jPanelArmariosLayout.setVerticalGroup(
             jPanelArmariosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -360,7 +356,7 @@ public class Tienda extends javax.swing.JFrame {
                 .addGroup(jPanelArmariosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel22)
                     .addComponent(jLabel24))
-                .addContainerGap(224, Short.MAX_VALUE))
+                .addContainerGap(36, Short.MAX_VALUE))
         );
 
         jMenu1.setText("Artículos");
