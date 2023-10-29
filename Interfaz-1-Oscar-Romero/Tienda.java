@@ -7,17 +7,6 @@ package proyectotienda;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-/**
- *
- * @author racso
- * Mejoras que se pueden hacer:
- * Opción salir cierra el programa - mirar en entrega1 de primero
- * Alinear todas las etiquetas igual
- * Meter opción de dar el margen en la interfaz
- * Meter el codigo de los botones en un método con argumentos(precio,margen,jField,jLabel)
- * Meter la opción de descuentos por cantidad
- * 
- */
 public class Tienda extends javax.swing.JFrame {
 
     /**
